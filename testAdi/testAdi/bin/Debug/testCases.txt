@@ -1,0 +1,19 @@
+Cases:
+1.	Insert tasks and verify that they indeed appear in the view of the “todo list” by name and count
+2.	Insert tasks and verify that the “X items left” as in “X” active tasks is correct 
+3.	Hit “Active” link and verify that the list shown is indeed the active list 
+4.	In case no active tasks – verify the list is empty
+5.	Hit “Completed” link and verify that the list shown is indeed the Completed list 
+6.	In case there are no Completed tasks – verify the list is empty
+7.	Hit “Clear Completed” button and verify that indeed there are no tasks in completed list
+8.	Toggle “Active” task and verify that it was added to completed list , and was removed from Active list
+9.	Toggle “Active” task and verify that the “X items left” as in “X” active tasks is correct 
+10.	Toggle “Completed” task and verify that it was added to Active list , and was removed from Completed list
+11.	Toggle “Completed” task and verify that the “X items left” as in “X” active tasks is correct
+
+none implemented cases:
+12. very long input - verify that UI doesn't break, and scrolling is not harmed
+13. different languages- Hebrew, Japanese , (since their font size is bigger than English)
+14. different browsers (Explorer, firefox , safari etc)
+15. different resolution - verify that UI doesn't break , and scrolling is not harmed
+16. check "destroy" button - verify that it indeed erases the item from the view and that “X” active tasks is correct 
